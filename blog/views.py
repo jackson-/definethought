@@ -14,5 +14,4 @@ class PostDetail(View):
     template_name = "post_detail.html"
 
     def get(self, request, slug):
-        print "NEW SHIT"
         return render(request, self.template_name, {})
